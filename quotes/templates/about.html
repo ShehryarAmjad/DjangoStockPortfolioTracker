@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% block content %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+<div class="wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-lg-4">
+		       <div class="card mx-30">
+			  <img src="https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/438086101_2110905705926942_2871913582423764456_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFKgAHk0KU6gxxLtXq4xz4_BKO1GcmoMjEEo7UZyagyMTikyfAfTC_rSvGAhsXEO7ui2GhHWtB7jElrHGKkM-WO&_nc_ohc=c3TWd9_j0gYQ7kNvgHzj7bc&_nc_ht=scontent-ams4-1.xx&oh=00_AYCjtglQOQ4zbc-4RKJGGs0m3W_LcxN48IbQL6Cjpx39tg&oe=665C3304" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Shehryar Amjad</h5>
+				<h6>Lead Developer</h6>
+					<div class="socials">
+										<a href="https://www.facebook.com/shehryar.amjad.90/"><i class="fa fa-facebook"></i></a>
+										<a href="https://www.instagram.com/panwarshehryar/"><i class="fa fa-instagram"></i></a>
+										<a href="https://www.linkedin.com/in/shehryar-panwar-6b8468230/"><i class="fa fa-linkedin"></i></a>
+					</div>
+			
+			   </div>
+			</div>
+				
+				
+
+</div>
+</div>
+</div>
+
+<style>
+	body {
+ font-family: 'Lato', sans-serif;
+ align-content: center;
+ align-items: center;
+ align-self: center;
+}
+
+.wrapper {
+padding-top: 120px;
+align-items: center;
+}
+.row{
+	align-self: center;
+}
+.card-img-top {
+box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.card-body{
+    text-align: center;
+    box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5)
+}
+.card-body h6 {
+font-size: 14px;
+text-transform: uppercase;
+color: deeppink;
+}
+.card-title {
+text-transform: uppercase;
+font-weight: bold;
+font-size: 24px;
+}
+
+.socials a {
+width: 40px;
+height: 40px;
+display: inline-block;
+border-radius: 50%;
+margin: 0 5px;
+}
+.socials a i {
+color: #fff;
+padding: 12px 0;
+}    
+
+.socials a:nth-child(1) {
+background: #3b5998;
+}.socials a:nth-child(2) {
+background: #ff0000;
+}.socials a:nth-child(3) {
+background: #007bb5;
+}.socials a:nth-child(4) {
+background: #ea4c89;
+}
+
+@media (max-width: 800px){
+    .mx-30{
+        margin-bottom: 30px;
+    }
+}
+</style>
+
+
+{% endblock %}
